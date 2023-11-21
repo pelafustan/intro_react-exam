@@ -34,7 +34,7 @@ function App() {
             color: "#fff",
           }}
         >
-          <img alt="hp-logo" src="/hp_logo.png" style={{ height: "80%", padding: "0.5rem 1rem" }} />
+          <img alt="hp-logo" src="./hp_logo.png" style={{ height: "80%", padding: "0.5rem 1rem" }} />
           <h3>Harry Potter - Character Database</h3>
           <SearchBar
             setQuery={setQuery}

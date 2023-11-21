@@ -140,7 +140,7 @@ export default function MainView({ data, loading, query, filters, sortBy }) {
             cover={
               <img
                 alt={item.name}
-                src={item.image ? item.image : "/hp_logo.png"}
+                src={item.image ? item.image : "../hp_logo.png"}
                 style={{ boxSizing: "border-box", padding: "20px" }}
               />
             }
