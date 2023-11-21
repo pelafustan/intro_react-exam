@@ -5,6 +5,7 @@ import Filters from "./components/Filters";
 import MainView from "./components/MainView";
 import MyApi from "./components/MyApi";
 import SearchBar from "./components/SearchBar";
+import Logo from "./hp_logo.png";
 
 function App() {
   const [data, setData] = useState([]);
@@ -34,7 +35,7 @@ function App() {
             color: "#fff",
           }}
         >
-          <img alt="hp-logo" src="./hp_logo.png" style={{ height: "80%", padding: "0.5rem 1rem" }} />
+          <img alt="hp-logo" src={ Logo } style={{ height: "80%", padding: "0.5rem 1rem" }} />
           <h3>Harry Potter - Character Database</h3>
           <SearchBar
             setQuery={setQuery}
@@ -65,6 +66,7 @@ function App() {
               query={query}
               filters={filters}
               sortBy={sortBy}
+              logo={Logo}
             />
           </Layout.Content>
         </Layout>

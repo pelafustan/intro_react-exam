@@ -1,6 +1,6 @@
 import { List, Card, Typography } from "antd";
 
-export default function MainView({ data, loading, query, filters, sortBy }) {
+export default function MainView({ data, loading, query, filters, sortBy, logo }) {
   let filtered = [];
   if (filters.ancestry.length || filters.house.length || filters.specie.length) {
     filtered = data.filter(entry => {
@@ -140,7 +140,7 @@ export default function MainView({ data, loading, query, filters, sortBy }) {
             cover={
               <img
                 alt={item.name}
-                src={item.image ? item.image : "../hp_logo.png"}
+                src={item.image ? item.image : logo}
                 style={{ boxSizing: "border-box", padding: "20px" }}
               />
             }
