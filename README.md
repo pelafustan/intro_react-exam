@@ -1,8 +1,36 @@
-# React + Vite
+# React I
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Exam
 
-Currently, two official plugins are available:
+### Context
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We were asked to develop a React App that consumes an API from our choice. For this project, I decided to use [https://hp-api.onremote.com/](this Harry Potter API) to deal with.
+
+### About 
+
+The App is conformed, basically, by:
+* A header.
+* A left sider.
+* The main content.
+
+On the header, you can find a HP logo, a title, and the search bar. The search bar is quite simple: you put a query and then you can get a result, if there is a match for your query.
+
+On the (left) sider you can find some filters. You can choose to reduce the number of element showed on the main view by selecting:
+* One or more species.
+* One or more houses.
+* One or more ancestry.
+
+Also, you can sort the presented data.
+
+The main view is a collection of cards. At the bottom, you can choose how many cards should be displayed on each page. You can show 10, 20, 50 or 100 cards by each page.
+
+### Author
+
+* [https://github.com/pelafustan](Patricio Parada)
+
+### Acknowledgements
+
+* [https://hp-api.onremote.com/](The Harry Potter API).
+* Black Coffee.
+* Green Tea (when tummy hurts).
+* [https://desafiolatam.com](Desafío Latam).
