@@ -26,10 +26,18 @@ export default function MyApi({ setData, setLoading }) {
                 image,
               }))
             .map(entry => {
-              return entry.ancestry === "" ? { ...entry, ancestry: "unknown" } : entry
+              return (
+                entry.ancestry === ""
+                  ? { ...entry, ancestry: "unknown" }
+                  : entry
+              );
             })
             .map(entry => {
-              return entry.house === "" ? { ...entry, house: "Unknown" } : entry
+              return (
+                entry.house === ""
+                  ? { ...entry, house: "Unknown" }
+                  : entry
+              );
             }));
       })
       .catch((res) => console.log(res.status, res.statusText))
