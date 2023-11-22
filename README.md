@@ -26,6 +26,10 @@ The main view is a collection of cards. At the bottom, you can choose how many c
 
 You can check this wonderful app [here](https://pelafustan.github.io/intro_react-exam).
 
+### Video
+
+You can check the explanation video [here](https://youtu.be/n4y6fc_xXVs)
+
 ### Author
 
 * [Patricio Parada](https://github.com/pelafustan)
