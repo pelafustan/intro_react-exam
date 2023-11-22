@@ -2,7 +2,7 @@ import { Space, Select } from "antd";
 
 // I need this for the filters
 const ancestriesValue = ["half-blood", "muggleborn", "pure-blood", "unknown", "squib", "muggle", "half-veela", "quarter-veela"];
-const housesValue = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw", "unknown"];
+const housesValue = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw", "Unknown"];
 const speciesValue = ["human", "half-giant", "werewolf", "cat", "goblin", "owl", "ghost", "poltergeist", "three-headed dog", "dragon", "centaur", "house-elf", "acromantula", "hippogriff", "giant", "vampire", "half-human"];
 const ancestriesLabel = ["Half-Blood", "Muggle-Born", "Pure-Blood", "Unknown", "Squib", "Muggle", "Half-Veela", "Quarter-Veela"];
 const housesLabel = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw", "Unknown"];
