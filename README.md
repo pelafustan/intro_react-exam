@@ -4,7 +4,7 @@
 
 ### Context
 
-We were asked to develop a React App that consumes an API from our choice. For this project, I decided to use [https://hp-api.onremote.com/](this Harry Potter API) to deal with.
+We were asked to develop a React App that consumes an API from our choice. For this project, I decided to use [this Harry Potter API](https://hp-api.onremote.com/) to deal with.
 
 ### About 
 
@@ -24,15 +24,15 @@ Also, you can sort the presented data.
 
 The main view is a collection of cards. At the bottom, you can choose how many cards should be displayed on each page. You can show 10, 20, 50 or 100 cards by each page.
 
-You can check this wonderful app [https://pelafustan.github.io/intro_react-exam](here).
+You can check this wonderful app [here](https://pelafustan.github.io/intro_react-exam).
 
 ### Author
 
-* [https://github.com/pelafustan](Patricio Parada)
+* [Patricio Parada](https://github.com/pelafustan)
 
 ### Acknowledgements
 
-* [https://hp-api.onremote.com/](The Harry Potter API).
+* [The Harry Potter API](https://hp-api.onremote.com/).
 * Black Coffee.
 * Green Tea (when tummy hurts).
-* [https://desafiolatam.com](Desafío Latam).
+* [Desafío Latam](https://desafiolatam.com).
